@@ -361,9 +361,9 @@ Metric Code Size 3216</description>
 <circle x="-3.5" y="3.8" radius="0.6" width="0.127" layer="21"/>
 <circle x="3.5" y="-4.562" radius="0.6" width="0.127" layer="21"/>
 </package>
-<package name="SOLDER_CONTACTS" urn="urn:adsk.eagle:footprint:43558437/1" library_version="482">
-<smd name="1" x="0" y="2" dx="5" dy="2" layer="1"/>
-<smd name="2" x="0" y="-2" dx="5" dy="2" layer="1"/>
+<package name="SOLDER_CONTACTS" urn="urn:adsk.eagle:footprint:43558437/2" library_version="484">
+<smd name="1" x="0" y="2" dx="5" dy="2" layer="1" cream="no"/>
+<smd name="2" x="0" y="-2" dx="5" dy="2" layer="1" cream="no"/>
 </package>
 <package name="PAD.03X.03" urn="urn:adsk.eagle:footprint:7012440/3" library_version="483">
 <description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
@@ -460,7 +460,7 @@ Metric Code Size 3216</description>
 <packageinstance name="PTV09A-4"/>
 </packageinstances>
 </package3d>
-<package3d name="SOLDER_CONTACTS" urn="urn:adsk.eagle:package:43558438/1" type="box" library_version="482">
+<package3d name="SOLDER_CONTACTS" urn="urn:adsk.eagle:package:43558438/2" type="box" library_version="484">
 <packageinstances>
 <packageinstance name="SOLDER_CONTACTS"/>
 </packageinstances>
@@ -963,7 +963,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDER_CONTACTS" urn="urn:adsk.eagle:component:43558439/1" prefix="X" library_version="482">
+<deviceset name="SOLDER_CONTACTS" urn="urn:adsk.eagle:component:43558439/2" prefix="X" library_version="484">
 <gates>
 <gate name="G$1" symbol="CALIBRATOR_CONTACT_PAIR" x="2.54" y="2.54"/>
 </gates>
@@ -974,7 +974,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43558438/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43558438/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5828,7 +5828,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="+3V4" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="+3V3" device=""/>
 <part name="RP1" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="PTV09A-4" device="" package3d_urn="urn:adsk.eagle:package:43558178/4" value="PTV09A-4030F-A102"/>
 <part name="GND8" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="0V" device=""/>
-<part name="X1" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="SOLDER_CONTACTS" device="" package3d_urn="urn:adsk.eagle:package:43558438/1"/>
+<part name="X1" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="SOLDER_CONTACTS" device="" package3d_urn="urn:adsk.eagle:package:43558438/2"/>
 <part name="JP2" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="JUMPER-SMT_2_NC_TRACE" device="" package3d_urn="urn:adsk.eagle:package:21144650/3"/>
 <part name="GND9" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="0V" device=""/>
 <part name="TP1" library="SkyFall" library_urn="urn:adsk.eagle:library:9574203" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:7012445/4"/>
