@@ -80,6 +80,7 @@ Note:
 * **External antenna for better GPS signal**
 * **Open source**
 * **Specifications sheet with accuracy detailed**
+* **Platform agnostic, Mac/Windows/Linux… all good**
 
 
 ## Purpose
