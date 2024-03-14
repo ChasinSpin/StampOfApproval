@@ -338,7 +338,7 @@ First installation:
 * Place the file: 
 `circuitpython/adafruit-circuitpython-adafruit_feather_esp32s2_reverse_tft-en_US-8.2.9.uf2`
 in the FTHRS2BOOT drive on the computer and wait for SOA to reboot
-* Place all the files and folders found with the folder "soa" into the "CIRCUITPY" drive that appears on the computer and wait for SOA to start
+* Download: [SOA V1.0.0 Zip File](https://github.com/ChasinSpin/StampOfApproval/raw/main/soa_1_0_0.zip), unzip the file and place all the files and folders found within the "soa" folder into the "CIRCUITPY" drive that appears on the computer and wait for SOA to start.  Note: Keep the folder names and their contents intact.  It's important to copy what's in the soa folder, not the soa folder itself onto the drive.
 
 For subsequent upgrades, you can start from the last item on the above list as Circuit Python is now already installed.
 
